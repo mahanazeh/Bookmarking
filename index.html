@@ -1,0 +1,69 @@
+<html>
+<head><link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css"></head>
+
+<body>
+    
+
+<div class="container py-5 ">
+    <h3>Bookmarker</h3>
+</div>
+
+<div class="all " style="text-align:center ;">
+
+<div class="container input">
+
+    <div class="url py-5">
+        <h2>Bookmark your favorite sites</h2>
+        
+        <!-- input1 -->
+        <label for="sName" class="form-label mt-4 ">Site Name</label>
+        <input id="sName" class="form-control mb-2 m-auto w-75" aria-describedby="passwordHelpBlock" placeholder="Site Name">
+        
+        <!-- input2 -->
+        <label for="sURL" class="form-label mt-4">Site URL</label>
+        <input  id="sURL" class="form-control mb-2  m-auto w-75" aria-describedby="passwordHelpBlock" placeholder="website URL">
+
+
+
+        <button onclick="addProduct()" class="btn btn-primary my-3" type="submit">Submit</button>
+
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+<table class="table mt-5 mx-auto">
+    <thead class="text-dark bg-gradient">
+        <th>Name</th>
+        <!-- <th>URL</th> -->
+        <th class="text-primary">View</th>
+        <th class="text-danger">Delete</th>
+    </thead>
+    <tbody class="text-muted" id="WEB">
+
+
+
+    </tbody>
+</table> 
+
+
+<div class="container">
+<div class="footer text-muted pt-5">
+    <p>© 2019 Bookmarker Inc.</p>
+</div>
+
+</div>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
